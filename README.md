@@ -1,28 +1,36 @@
-# 🎙️ Index-TTS 2.5 Voice Cloning Colab
+# 🎙️ Index-TTS 2.5: Free Voice Cloning & Emotion Control in Google Colab
 
-This repository contains a simple, no-code Google Colab notebook to clone any voice completely for free using **Index-TTS 2.5**[cite: 1].
+This repository contains an easy-to-use Google Colab notebook for running **Index-TTS 2.5**. This AI allows you to clone any voice for completely free and manipulate the speaker's emotion, speed, and pronunciation using zero coding.
 
-[![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Tutorial-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=dU6lEq_AvV0)
+**🎥 Watch the Tutorial:** [How to Clone ANY Voice for FREE | Text to Speech AI](https://www.youtube.com/watch?v=dU6lEq_AvV0) by [@CoinNoin](https://www.youtube.com/@CoinNoin)
 
-## ✨ Features
-This notebook allows you to easily generate text-to-speech audio with powerful customization:
-* **Multi-Language Support**: Works in English, Chinese, Japanese, Spanish, and Arabic[cite: 1].
-* **Instant Voice Cloning**: Only requires a clear, quiet 3 to 10-second audio clip to duplicate a voice[cite: 1].
-* **Emotion Transfer**: Upload a secondary audio clip (like someone crying or yelling) to transfer that exact emotion to your main voice[cite: 1].
-* **Emotion Sliders**: Mix emotions manually using sliders for happy, angry, or sad parameters[cite: 1].
-* **Auto Emotion Detection**: Automatically detect the correct emotion from the context of your text.
-* **Speed Control**: Use sliders to easily make the voice speak faster or slower[cite: 1].
-* **Phoneme Control**: Use special phoneme codes to force the AI to pronounce specific words perfectly[cite: 1].
+**🚀 Run in Colab:** [Open Google Colab Notebook](https://colab.research.google.com/drive/1dobJAb8FyXBymtg1eKU9WzTlqukaJE8W?usp=sharing)
 
-## 🚀 How to Use
-1. Open the `.ipynb` file in Google Colab.
-2. Ensure your hardware accelerator is turned on. Go to **Runtime > Change runtime type** and select **T4 GPU**[cite: 1].
-3. Run **Cell 1** and **Cell 2** to install dependencies and download the Index-TTS models[cite: 1]. (This may take a few minutes[cite: 1]).
-4. Navigate to **Cell 3**, type the text you want the AI to say, choose your language, and click play[cite: 1].
-5. You will be prompted to upload your short reference audio file[cite: 1].
-6. The AI will output a `.wav` file of your generated speech[cite: 1].
+---
 
-Explore Cells 4 through 9 for advanced emotion, speed, and pronunciation controls!
+## ✨ Features Supported in this Notebook
+
+This notebook is divided into 9 easy-to-run cells:
+
+1. **⚙️ Install Dependencies**: Sets up the `uv` package manager and clones the `index-tts` core repository.
+2. **📥 Download Models**: Fetches the core IndexTTS-2.5 model weights needed for production generation.
+3. **🗣️ Voice Cloning (Single Reference Audio)**: Upload a 3 to 10-second clear voice clip, and the AI will generate speech matching that exact voice in English, Chinese, Japanese, Spanish, or Arabic.
+4. **🎭 Emotion Control (Audio Reference)**: Upload a base speaker voice and a second emotional voice (e.g., someone crying or yelling). The AI applies the emotion to your base voice!
+5. **📊 Emotion Control via Vector Parameters**: Fine-tune emotions using sliders for *happy*, *angry*, and *sad*.
+6. **🤖 Auto Emotion Detection**: Automatically infers the speaker's emotional state straight from the context of your text using Qwen models.
+7. **📝 Emotion Description**: Tell the AI exactly how the speaker feels via a text prompt (e.g., "Overwhelming tears of joy and disbelief").
+8. **⏱️ Speed Control**: Use sliders to speed up or slow down the generated speech.
+9. **🔤 Exact Pronunciation Control**: Use CMU Phonemes (`<word|PHONEMES>`) to force precise pronunciations for specific words.
+
+## 🛠️ How to Use
+
+1. Open the [Colab link](https://colab.research.google.com/drive/1dobJAb8FyXBymtg1eKU9WzTlqukaJE8W?usp=sharing).
+2. Go to **Runtime > Change runtime type** and ensure **T4 GPU** is selected.
+3. Run **Cell 1** and **Cell 2** to install the dependencies and models.
+4. Go to **Cell 3** (or whichever feature you want to use), type your text, pick your language, and hit Play. 
+5. When prompted, upload your short reference `.wav` audio file.
+6. The AI will output a downloadable `.wav` file with your generated voice!
 
 ## 🤝 Credits
-Powered by the [Index-TTS](https://github.com/index-tts/index-tts) project and [CoinNoin](https://www.youtube.com/@CoinNoin)[cite: 1].
+* **Tutorial & Notebook Creator:** [CoinNoin](https://www.youtube.com/@CoinNoin)
+* **Underlying AI Model:** [Index-TTS](https://github.com/index-tts/index-tts)
