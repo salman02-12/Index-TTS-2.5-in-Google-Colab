@@ -6,6 +6,7 @@ This repository contains an easy-to-use Google Colab notebook for running **Inde
 
 **🚀 Run in Colab:** [Open Google Colab Notebook](https://colab.research.google.com/drive/1dobJAb8FyXBymtg1eKU9WzTlqukaJE8W?usp=sharing)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/salman02-12/Index-TTS-2.5-in-Google-Colab/blob/main/IndexTTS-2.5%20%40CoinNoin.ipynb)
 ---
 
 ## ✨ Features Supported in this Notebook
