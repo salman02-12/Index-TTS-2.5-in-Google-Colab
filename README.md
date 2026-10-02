@@ -8,6 +8,8 @@ This repository contains an easy-to-use Google Colab notebook for running **Inde
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/salman02-12/Index-TTS-2.5-in-Google-Colab/blob/main/IndexTTS-2.5%20%40CoinNoin.ipynb)
 
+[![Get Pro](https://img.shields.io/badge/Get%20Pro-PayPal-blue?logo=paypal)](https://www.paypal.com/ncp/payment/RDBK7KZYQR2D6)
+
 ---
 <img src="./thumbnail.png" width="100%" />
 
